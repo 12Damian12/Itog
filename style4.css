@@ -1,0 +1,26 @@
+div i {
+ transition: transform 0.3s;
+}
+  
+div i:hover {
+ transform: scale(1.2);
+}
+form {
+ display: flex;
+ flex-direction: column;
+ width: 300px;
+ margin: 0 auto;
+}
+input {
+ margin-bottom: 10px;
+ padding: 8px;
+ font-size: 16px;
+}
+.error {
+ color: red;
+ font-size: 12px;
+}  
+#map {
+ height: 400px;
+ width: 100%;
+}

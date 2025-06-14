@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+ <div style="display: flex; gap: 20px;">
+     <div style="text-align: center;">
+         <i class="fas fa-map-marker-alt" style="font-size: 30px;"></i><br>
+         <span>Адрес: г. Краснодар, улица Примерная, 1</span>
+     </div>
+        
+     <div style="text-align: center;">
+          <i class="fas fa-phone" style="font-size: 30px;"></i><br>
+          <span>Телефон: +7 (952) 869-00-27</span>
+     </div>
+        
+     <div style="text-align: center;">
+         <i class="fas fa-envelope" style="font-size: 30px;"></i><br>
+         <span>Email: dpro9347@gmail.com</span>
+     </div>
+ </div>
+
+
+ <form id="feedbackForm">
+     <label for="name">Имя:</label>
+     <input type="text" id="name" required>
+        
+     <label for="email">Email:</label>
+     <input type="email" id="email" required>
+        
+     <label for="message">Сообщение:</label>
+     <textarea id="message" required></textarea>
+        
+     <button type="submit">Отправить</button>
+  </form>
+        
+
+
+ <h2>Наш офис</h2>
+ <div id="map"></div>
+
+
+  <script src="script4.js"></script>
+</body>
+</html>

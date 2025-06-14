@@ -1,0 +1,27 @@
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+}
+.parallax {
+ /* Используйте изображения в качестве фона */
+ background-image: url('img1.jpg');
+ height: 500px; /* Высота секции */
+ background-attachment: fixed; /* Это создает параллакс эффект */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; /* Обеспечивает масштабирование изображения */
+}
+.content {
+ height: 500px; /* Высота контента */
+ background-color: white; /* Цвет фона контента */
+ padding: 20px;
+}
+.parallax img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
